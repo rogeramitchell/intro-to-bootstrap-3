@@ -1,5 +1,9 @@
 /* this is a custom stylesheet */
 
+body {
+	padding-top: 70px;
+}
+
 footer {
 	padding: 2em 0;
 	margin: 3em 0;
@@ -10,4 +14,16 @@ footer {
 
 .glyphicon {
 	color: #888;
+}
+
+.pull-right.img-responsive {
+	margin: 0 0 1em 1em;
+}
+
+article .btn {
+	float: bottom;
+}
+
+.breadcrumb > li + li:before {
+	content: none;
 }
